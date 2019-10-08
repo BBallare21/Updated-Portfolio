@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+  
+body {
+    /* The image used */
+    background-image: url("./Assets/background.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-size: cover;
+}
+
+#container1 {
+    border-radius: 7px;
+    margin-top: 80px;
+}
+
+#contact {
+    border-radius: 7px;
+    margin-top: 40px;
+    margin: auto;
+}
+
+#headcon {
+    margin-bottom: 70px;
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  }
+
+/*small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+  }
